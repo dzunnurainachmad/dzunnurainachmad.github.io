@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.snare {
+  background-color: #9088d4;
+}
+
+.kick {
+  background-color: #8bcdcd;
+}
+
+.tom {
+  background-color: #34626c;
+}
+
+.hihat {
+  background-color: #f05454;
+}
+
+.crash {
+  background-color: #30475e;
+}
+
+.hihatOpen {
+  background-color: #cad315;
+}
+
+.img-container {
+  text-align: center;
+  display: block;
+}
+
+body {
+  background-color: #fcf1f1;
+}
+
+h1 {
+  color: #a20a0a;
+  text-align: center;
+}
+
+h2 {
+  color: #f4f4f2;
+}
+
+.row {
+  box-shadow: 20px 20px 40px 10px grey;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
