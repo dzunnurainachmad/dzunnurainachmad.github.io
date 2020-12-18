@@ -34,14 +34,14 @@ let textBox = document.getElementById("keyboard");
 textBox.addEventListener("keydown", (event) => {
   //   console.log(`key=${event.key},code=${event.code}`);
   switch (event.key) {
-    case "x":
+    case "j":
+      playAudio("audio/tom.wav");
+      break;
+    case "k":
       playAudio("audio/snare.wav");
       break;
-    case "c":
+    case "l":
       playAudio("audio/kick.wav");
-      break;
-    case "z":
-      playAudio("audio/tom.wav");
       break;
     case "a":
       playAudio("audio/hihat.wav");
